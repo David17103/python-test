@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-for i in range(10):
-    for j in range(i + 1, 10):
-        print(f"{i}{j}", end=", ")
-print()
+for numbers in range(10):
+    for single_digit in range(numbers + 1, 10):
+        print("{:02d}".format(numbers * 10 + single_digit), end="")
+        if single_digit != 8 or single_digit != 9:
+            print(", ", end="")
+        else:
+            print()

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-number = range(0, 100)
-new_numbers = [f"{num:02d}" for num in number]
-output = ", ".join(new_numbers)
-
-print(output)
+for numbers in range(100):
+    print("{:02d}".format(numbers), end="")
+    if numbers != 99:
+        print(", ", end="")
+    else:
+        print()
