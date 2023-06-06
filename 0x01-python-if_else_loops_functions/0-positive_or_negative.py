@@ -6,7 +6,7 @@ number2 = random.randint(-10, -1)
 number3 = 0
 
 if number > 0:
-    print(number1, "is positive")
+    print({}, "is positive".format(number1))
 elif number == 0:
     print(number3, "is zero")
 else:
