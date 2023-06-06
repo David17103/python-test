@@ -10,4 +10,6 @@ if digit_last > 5:
 elif digit_last == 0:
     print("and is 0")
 else:
+    if digit_last < 0:
+        digit_last = -digit_last
     print("and is less than 6 and not 0")
