@@ -4,5 +4,5 @@ for numbers in range(10):
         print("{:02d}".format(numbers * 10 + single_digit), end="")
         if single_digit != 8 or single_digit != 9:
             print(", ", end="")
-        else:
+        else numbers != 8:
             print()
