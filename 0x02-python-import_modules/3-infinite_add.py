@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import sys
 
-def add_arguments(argument):
-    result = (argument)
-    print("{}".format(result))
+if __name__ == '__main__':
+
+    def add_arguments(argument):
+        result = (argument)
+        print("{}".format(result))
